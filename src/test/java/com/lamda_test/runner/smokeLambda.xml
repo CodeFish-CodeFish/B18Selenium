@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="lambda suite">
+
+    <test name="lambda test">
+
+        <parameter name="name" value="Kuba"></parameter>
+        <parameter name="email" value="email@email.com"></parameter>
+        <parameter name="password" value="12345"></parameter>
+        <parameter name="company" value="IBM"></parameter>
+        <parameter name="website" value="www.ibm.com"></parameter>
+        <parameter name="country" value="United States"></parameter>
+        <parameter name="city" value="Chitown"></parameter>
+        <parameter name="address1" value="1 S Dearborn st"></parameter>
+        <parameter name="address2" value="1 S Dearborn st"></parameter>
+        <parameter name="state" value="Illinois"></parameter>
+        <parameter name="zipCode" value="60656"></parameter>
+
+        <parameter name="test" value="test text"></parameter>
+        <parameter name="messageBody" value="someText"></parameter>
+
+        <classes>
+            <class name="com.lamda_test.tests.LambdaTest"></class>
+        </classes>
+    </test>
+</suite>

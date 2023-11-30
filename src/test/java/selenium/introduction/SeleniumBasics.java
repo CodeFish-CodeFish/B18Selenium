@@ -9,7 +9,7 @@ public class SeleniumBasics {
 
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/codefish/Desktop/chromedriver");
+       // System.clearProperty("webdriver.chrome.driver");
         // if windows add .exe at the end of chromedriver
         // if Mac just chromedriver
         WebDriver driver = new ChromeDriver();
@@ -19,6 +19,7 @@ public class SeleniumBasics {
 
         System.out.println("driver.getTitle() = " + driver.getTitle());
         System.out.println("driver.getCurrentUrl() = " + driver.getCurrentUrl());
+
 
         driver.navigate().to("https://www.youtube.com/");
         Thread.sleep(1000);

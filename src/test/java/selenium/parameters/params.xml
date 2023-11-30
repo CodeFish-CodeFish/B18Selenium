@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="params">
+
+    <test name="param tests">
+
+        <parameter name="firstName" value="Kuba"></parameter>
+        <parameter name="lastName" value="Abdy"></parameter>
+        <parameter name="country" value="USA"></parameter>
+        <parameter name="city" value="Oshington"></parameter>
+        <parameter name="str" value="someTest"></parameter>
+
+        <classes>
+            <class name="selenium.parameters.ParameterShowCase"></class>
+        </classes>
+    </test>
+</suite>

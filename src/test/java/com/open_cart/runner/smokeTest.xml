@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="OpenCart">
+    
+    <test name="OpenCartTest">
+        
+        <classes>
+            <class name="com.open_cart.tests.OpenCartTest"></class>
+        </classes>
+    </test>
+    
+</suite>

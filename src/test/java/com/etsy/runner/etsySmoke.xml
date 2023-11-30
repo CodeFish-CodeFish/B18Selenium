@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="esty smoke suite">
+    
+    <test name="etsy test">
+        <classes>
+
+            <class name="com.etsy.tests.EtsyScript">
+
+            </class>
+
+        </classes>
+    </test>
+    
+</suite>
