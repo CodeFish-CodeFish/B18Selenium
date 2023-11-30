@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="QA Fox Suite">
+    
+    <test name="QA Test">
+        
+        <parameter name="firstName" value="Kuan"></parameter>
+        <parameter name="lastName" value="Vasya"></parameter>
+        <parameter name="email" value="test@test.io"></parameter>
+        <parameter name="phone" value="3123232323"></parameter>
+        <parameter name="password" value="12345"></parameter>
+        <parameter name="passwordConfirm" value="12345"></parameter>
+        
+        <classes>
+            <class name="com.qa_fox.tests.QA_Fox_Scripts"></class>
+        </classes>
+        
+    </test>
+    
+</suite>

@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Luma Suite">
+
+    <test name="Luma Test">
+
+        <parameter name="email" value="email@qwert.io"></parameter>
+        <parameter name="firstName" value="Kuba"></parameter>
+        <parameter name="lastName" value="Abdy"></parameter>
+        <parameter name="address" value="River Rd"></parameter>
+        <parameter name="city" value="Chitown"></parameter>
+        <parameter name="state" value="Illinois"></parameter>
+        <parameter name="zipCode" value="60625"></parameter>
+        <parameter name="phone" value="312323232"></parameter>
+        <parameter name="methodName" value="visibleText"></parameter>
+
+        <classes>
+            <class name="com.luma.tests.LumaScript"></class>
+        </classes>
+    </test>
+</suite>

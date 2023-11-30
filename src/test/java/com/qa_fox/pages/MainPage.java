@@ -33,6 +33,19 @@ public class MainPage {
     @FindBy(xpath = "//a[.='Show AllDesktops']")
     WebElement showAllDesktops;
 
+    @FindBy(xpath = "//span[contains(.,'My Account')]")
+    WebElement myAccount;
+
+    @FindBy(xpath = "//a[contains(.,'Register')]")
+    WebElement register;
+
+    public void clickOnRegister(){
+
+        BrowserUtils.clickOnElement(myAccount);
+        BrowserUtils.clickOnElement(register);
+
+    }
+
 
 
     public void validateMainPage(WebDriver driver, String testData) throws InterruptedException {
